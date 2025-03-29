@@ -24,6 +24,11 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="pt-BR">
+			<head>
+				<link rel="icon" href="/faviconV2.png" sizes="any" />
+				<link rel="icon" href="/faviconV2.png" type="image/svg+xml" />
+				<link rel="apple-touch-icon" href="/apple-icon.png" />
+      		</head>
 			<body>{children}</body>
 		</html>
 	);
